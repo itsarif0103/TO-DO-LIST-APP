@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO-DO APP</title>
+    <title>TO-DO LIST APP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, Today we are gonna create TO-DO list app using HTML, CSS, Javascript!!</h1>
+    <!-- <h1>Hello, Today we are gonna create TO-DO list app using HTML, CSS, Javascript!!!</h1> -->
+     <div class="container">
+        <div class="todo-app">
+            <h2>To-do list <img src="./Images/icon.png"></h2>
+            <div class="row">
+                <input type="text" name="search" id="input-box" placeholder="Enter your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container"> </ul>
+        </div>
+     </div>
+     <script src="script.js"></script>
 </body>
 </html>
